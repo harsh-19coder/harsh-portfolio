@@ -38,36 +38,37 @@
 
   <section id="about" class="section glass">
     <h3>About Me</h3>
-    <p>B.Tech Computer Science student at Graphic Era University, Dehradun — CGPA: 9.21/10</p>
-    <p><strong>Coursework:</strong> DSA, OS, Machine Learning, Distributed Systems, DBMS, Computer Networks</p>
-    <p><strong>Skills:</strong> Python, Java, C++, React, Tailwind, Git, Linux, AWS Basics, Information Retrieval</p>
+    <p>B.Tech Computer Science student at Graphic Era University, Dehradun — CGPA: 9.07/10</p>
+    <p><strong>Coursework:</strong> DSA, OS, Machine Learning, DBMS, Computer Networks</p>
+    <p><strong>Skills:</strong> C++, C, React, MySQL, MongoDB, Git, Jupyter Notebook</p>
   </section>
 
   <section id="projects" class="section">
-    <h3>Projects</h3>
-    <div class="cards">
-      <div class="card">
-        <h4>📊 Sentiment Classification System (2025)</h4>
-        <p>ML-based text classifier trained on 50k+ SMS. Deployed with Flask. Used SVM & Random Forest + TF-IDF.</p>
-      </div>
-      <div class="card">
-        <h4>🧑‍💻 Real-time Code Editor (2024)</h4>
-        <p>Collaborative editor with React + WebSocket. Supports 500+ users with <100ms sync time and role-based auth.</p>
-      </div>
-      <div class="card">
-        <h4>📈 Data Dashboard (2024)</h4>
-        <p>Created with TypeScript + Tailwind. Optimized with Redux & Lighthouse score of 93%.</p>
-      </div>
+  <h3>Projects</h3>
+  <div class="cards">
+    <div class="card">
+      <h4>📊 Sentiment Classification System (2025)</h4>
+      <p>ML-based text classifier trained on 50k+ SMS. Deployed with Flask. Used SVM & Random Forest + TF-IDF.</p>
     </div>
-  </section>
+    <div class="card">
+      <h4>🧑‍💻 Real-time Code Editor (2024)</h4>
+      <p>A collaborative editor built with HTML, CSS, and JavaScript using WebSocket. It allows multiple people to code together in real time with role-based access.</p>
+    </div>
+    <div class="card">
+      <h4>⚡ Sorting Visualizer (2024)</h4>
+      <p>A web-based tool created with HTML, CSS, and JavaScript to visualize sorting algorithms like Bubble, Merge, Insertion Sort etc. It helps users clearly understand how each algorithm works step by step.</p>
+    </div>
+  </div>
+</section>
+
 
   <section id="experience" class="section glass">
     <h3>Technical Experience</h3>
-    <p><strong>Graphic Geeks Club – May 2024 to Present</strong></p>
+    <p><strong>Graphic Geeks Club – May 2024 to 2025</strong></p>
     <ul>
       <li>Led frontend UI design and performance optimization</li>
       <li>Built responsive, accessible web interfaces</li>
-      <li>Hosted live coding workshops on React & Git</li>
+      <li>Hosted coding workshops on Web Development & Git for juniors</li>
     </ul>
   </section>
 
@@ -88,7 +89,7 @@
     <ul>
       <li>✅ Solved 300+ LeetCode problems (70%+ medium/hard success)</li>
       <li>🏆 Top 5% finalist, Smart India Hackathon 2024 (internal)</li>
-      <li>💡 Participated in national-level hackathons focused on cloud automation & cost optimization</li>
+      <li>💡 5 star in C++ and 4 star in Problem Solving on HackerRank</li>
     </ul>
   </section>
 
@@ -99,10 +100,18 @@
   </section>
 
   <footer>
-    <p>🌟 Portfolio of Harsh Rajwani | Built with HTML, CSS & JS | 2025</p>
-    <p class="tech-thought">"Code is like humor. When you have to explain it, it’s bad." – Cory House</p>
-  </footer>
+  <div class="footer-container">
+    <p>© <span id="year"></span> Harsh Rajwani</p>
+    <p class="motto">🚀 Keep Building, Keep Growing</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 
   <script src="script.js"></script>
 </body>
 </html>
+
